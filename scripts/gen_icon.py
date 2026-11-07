@@ -1,4 +1,4 @@
-"""生成应用图标（需 Pillow）：python scripts/gen_icon.py"""
+﻿"""生成应用图标（需 Pillow）：python scripts/gen_icon.py"""
 from pathlib import Path
 
 from PIL import Image, ImageDraw
@@ -47,7 +47,7 @@ def main():
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     img.save(OUT)
-    img.resize((192, 192), Image.LANCZOS).save(ROOT / "docs" / "screenshots" / "icon.png")
+    img.resize((192, 192), Image.LANCZOS).save(ROOT / "docs" / "icon.png")
     print("wrote", OUT)
 
 

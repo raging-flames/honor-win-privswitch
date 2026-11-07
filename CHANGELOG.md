@@ -1,8 +1,8 @@
-# 隐私开关 · 更新记录
+﻿# 隐私开关 · 更新记录
 
 ## v5（2026-11-07）
 
-- **项目整理为可发布结构**：`scripts/`、`docs/screenshots/`、`.gitignore`，README 重写
+- **项目整理为可发布结构**：`scripts/`、`docs/icon.png`、`.gitignore`，README 重写
 - **构建脚本改为纯 PowerShell**：移除 Python 依赖，自动探测 Android SDK / JDK
 - **新增应用图标**：`res/drawable/ic_launcher.png`（`scripts/gen_icon.py` 可重新生成）
 - 清理临时脚本、调试截图与构建产物，不再纳入版本库
