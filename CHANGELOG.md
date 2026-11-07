@@ -1,4 +1,12 @@
-﻿# 隐私开关 · 更新记录
+# 隐私开关 · 更新记录
+
+## v1.0.0（2026-11-07）
+
+首个正式 Release
+
+- `AndroidManifest.xml` 增加 `versionCode=1` / `versionName=1.0.0`（此前 versionName 为空）
+- README 增加「下载」入口，指向 Releases
+- 发布 APK：`privswitch-1.0.0.apk`（debug 签名）
 
 ## v5（2026-11-07）
 
