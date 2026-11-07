@@ -1,0 +1,21 @@
+# 构建产物
+build/
+*.apk
+*.aab
+*.idsig
+
+# 签名文件
+*.keystore
+*.jks
+*.p12
+
+# IDE / 本地配置
+.idea/
+*.iml
+.gradle/
+local.properties
+.DS_Store
+Thumbs.db
+
+# 日志与临时文件
+*.log
