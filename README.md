@@ -140,3 +140,7 @@ adb shell am start -n com.local.privswitch/.MainActivity --es action revert_all
 ## 更新记录
 
 见 [CHANGELOG.md](CHANGELOG.md)。
+
+## 许可证
+
+本项目采用 [MIT License](LICENSE)。
