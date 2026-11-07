@@ -1,4 +1,4 @@
-# 隐私开关（PrivSwitch）· HONOR WIN
+﻿# 隐私开关（PrivSwitch）· HONOR WIN
 
 面向 **HONOR WIN（AAP-AN00）/ MagicOS 11（Android 17）** 的原生隐私管控小工具：把已实施的隐私管控项集中管理，并支持 **应用 / 恢复 / 验证**。
 
@@ -8,8 +8,6 @@
 - 所有管控与验证都在本机完成
 
 > 本项目针对 **HONOR AAP-AN00 / MagicOS 11（Android 17）** 的包名与数据路径编写，同型号同版本可直接使用；其它机型/版本需要自行调整包名与路径。
-
-![设置页](docs/screenshots/settings.png)
 
 ## 功能
 
@@ -105,7 +103,7 @@ adb install -r -t build/privswitch.apk
 ├─ scripts/
 │  ├─ build.ps1              # 手工构建（无 Gradle）
 │  └─ gen_icon.py            # 生成应用图标（Pillow，可选）
-├─ docs/screenshots/
+├─ docs/icon.png
 ├─ CHANGELOG.md
 └─ README.md
 ```
